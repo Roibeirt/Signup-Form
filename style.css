@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Styling for logo section*/
+
+#background{
+    display: flex;
+    flex-direction: column;
+
+    width: 35vw;
+    
+    background-image:url("/img/luca-vercellio-St04_PZdVyw-unsplash.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#sign-up{
+    display: flex;
+    flex-direction: column;
+
+    width: 65vw;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 40.5vh;
+    height: 15vh;
+    background-color: #FFFFFFa2;
+}
+
+#logo-text{
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-size: 3em;
+}
+
+#svg{
+    padding-left: 1em;
+    height: 5em;
+    /*filter: invert(54%) sepia(68%) saturate(755%) hue-rotate(296deg) brightness(102%) contrast(104%);*/
+}
+
+#img-credit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    padding-bottom: 1em;
+    color: white;
+    font-size: .75em;
+}
+
+#img-credit a{
+    color: white;
+    transition:all .2s ease-in-out;
+}
+
+#img-credit a:hover{
+    display: inline-block;
+    color: #ff69b4;
+    transform:scale(1.1);
+}
+
+/*styling for booking section*/
+
+#sign-up{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#blurb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+    background-color: #eaffffaf;
+    color: black;
+    font-size: 1.5em;
+}
+#blurb p{
+    width: 75%;
+    font-weight: 1000;
+}
+
+#forms{
+    z-index: 1;
+    height: 33vh;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.185);
+}
+
+#buttons{
+    height: 34vh;
+    background-color: #eaffffaf;
+}
+
