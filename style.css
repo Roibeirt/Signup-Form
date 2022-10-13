@@ -67,6 +67,15 @@ body{
     transition:all .2s ease-in-out;
 }
 
+a{
+    transition:all .2s ease-in-out;
+}
+a:hover{
+    display: inline-block;
+    color: #ff69b4;
+    transform:scale(1.1);
+}
+
 #img-credit a:hover{
     display: inline-block;
     color: #ff69b4;
@@ -85,7 +94,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding-left: 5%;
     height: 33vh;
     background-color: #eaffffaf;
     color: black;
@@ -97,14 +106,75 @@ body{
 }
 
 #forms{
+    display: flex;
+    flex-direction: column;
     z-index: 1;
     height: 33vh;
     background-color: #FFFFFF;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.185);
+    
+
 }
 
 #buttons{
     height: 34vh;
     background-color: #eaffffaf;
+}
+
+#forms form{
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: .3fr .3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 10%;
+    row-gap: 10%;
+    align-items: center;
+    padding-left: 5%;
+    font-weight: 1000;
+}
+
+input{
+    height: 2em;
+    font-weight: 1000;
+    padding-left: .5em;
+    border: 1px solid lightgray;
+}
+
+input:focus{
+    border: ;
+    background-color: #eaffffaf;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+#form-blurb{
+    font-weight: 1000;
+    font-size: 1.2em;
+    padding-top: 1em;
+    padding-left: 5%;
+}
+
+#buttons{
+    font-weight: 1000;
+}
+
+#submit-button{
+    margin-left: 5%;
+    margin-top: 2em;
+    height: 3em;
+    width: 16em;
+    border: 1px black solid;
+    border-radius: 1em;
+    background-color: #FFFFFF ;
+    font-weight: 1000;
+    
+}
+
+#log-in{
+    margin-left: 5%;
+    margin-top: 2em;
 }
 
