@@ -18,7 +18,7 @@ body{
 
     width: 35vw;
     
-    background-image:url("/img/luca-vercellio-St04_PZdVyw-unsplash.jpg");
+    background-image:url("img/luca-vercellio-St04_PZdVyw-unsplash.jpg");
     background-size:cover;
     background-repeat: no-repeat;
 }
